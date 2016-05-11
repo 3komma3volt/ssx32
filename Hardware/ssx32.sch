@@ -23603,28 +23603,38 @@ External supply</text>
 </net>
 <net name="B6" class="0">
 <segment>
-<wire x1="142.24" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
 <label x="143.51" y="109.22" size="1.27" layer="95"/>
 <pinref part="IC1" gate="G$2" pin="KBI2/PGC/RB6"/>
-<pinref part="JP2" gate="A" pin="4"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
 <label x="220.091" y="129.794" size="1.27" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="A6"/>
 </segment>
+<segment>
+<pinref part="JP2" gate="A" pin="5"/>
+<wire x1="167.64" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="106.68" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
+<label x="152.4" y="106.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B7" class="0">
 <segment>
-<wire x1="142.24" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
 <label x="143.51" y="106.68" size="1.27" layer="95"/>
 <pinref part="IC1" gate="G$2" pin="KBI3/PGD/RB7"/>
-<pinref part="JP2" gate="A" pin="5"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
 <label x="220.091" y="132.461" size="1.27" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="A5"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="167.64" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="109.22" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<label x="152.4" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
