@@ -22544,6 +22544,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED4" library="led" deviceset="LED" device="CHIPLED_0603" value="G"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="330"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -22559,6 +22560,7 @@ controller</text>
 <text x="302.26" y="17.78" size="1.778" layer="97">berndp</text>
 <text x="172.72" y="50.8" size="1.778" layer="97">Control +
 External supply</text>
+<text x="149.86" y="50.8" size="1.778" layer="97">Option: nousb</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$2" x="137.16" y="96.52"/>
@@ -22715,6 +22717,7 @@ External supply</text>
 <instance part="+3V5" gate="G$1" x="198.12" y="88.9" rot="MR90"/>
 <instance part="LED4" gate="G$1" x="73.66" y="215.9"/>
 <instance part="R10" gate="G$1" x="73.66" y="223.52" rot="R90"/>
+<instance part="R12" gate="G$1" x="160.02" y="58.42"/>
 </instances>
 <busses>
 <bus name="A[0..7],B[0..7],C[0..7],D[0..7],E[0..3],+3V3">
@@ -24101,7 +24104,12 @@ External supply</text>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <pinref part="IC8" gate="A" pin="I0"/>
-<wire x1="167.64" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="68.58" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="58.42" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
+<junction x="170.18" y="68.58"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -24111,6 +24119,10 @@ External supply</text>
 <wire x1="152.4" y1="71.12" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$2" pin="RX/DT/RC7"/>
 <wire x1="152.4" y1="83.82" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="58.42" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<junction x="152.4" y="71.12"/>
 </segment>
 </net>
 <net name="N$45" class="0">
