@@ -1,0 +1,22 @@
+       project: SSX32
+	   version: 1.1
+              : Open source 32 channel serial servo controller
+			  : using a daisy chain protocol
+   description: Main source file
+   written by : Michael Bradley
+
+	       PIC: 18F46K20
+	       IDE: Programers Notepad
+	  compiler: CCS C v 4.106
+       crystal: none (internal rc)
+   
+
+09/17/11	v1.1 - Allowed for addressing devices with same ID
+			changed source for for conditional compiling for 8/16/32 chanel
+
+02/25/11	Added sin mode, and #include <math.h>
+			gave software a version number 1.0
+
+01/15/11	This file created	   
+
+

@@ -1,0 +1,8 @@
+E:\Electronics\ssx32\ssx32\Software\ssx32Control\bin\Debug\ssx32Control.exe
+E:\Electronics\ssx32\ssx32\Software\ssx32Control\bin\Debug\ssx32Control.pdb
+E:\Electronics\ssx32\ssx32\Software\ssx32Control\obj\x86\Debug\ssx32Control.customSlider.resources
+E:\Electronics\ssx32\ssx32\Software\ssx32Control\obj\x86\Debug\ssx32Control.frmMain.resources
+E:\Electronics\ssx32\ssx32\Software\ssx32Control\obj\x86\Debug\ssx32Control.Properties.Resources.resources
+E:\Electronics\ssx32\ssx32\Software\ssx32Control\obj\x86\Debug\ssx32Control.csproj.GenerateResource.Cache
+E:\Electronics\ssx32\ssx32\Software\ssx32Control\obj\x86\Debug\ssx32Control.exe
+E:\Electronics\ssx32\ssx32\Software\ssx32Control\obj\x86\Debug\ssx32Control.pdb
